@@ -14,7 +14,7 @@ password=os.getenv("DB_PASSWORD")
 username=os.getenv("DB_USERNAME")
 
 MONGO_DB_URL = f"mongodb+srv://{username}:{password}@cluster0.do179sg.mongodb.net/?appName=Cluster0"
-print(MONGO_DB_URL)
+
 
 ca=certifi.where()
 
